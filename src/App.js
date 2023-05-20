@@ -3,7 +3,6 @@ import "./App.css";
 import Home from "./pages/Home";
 import MensClothing from './pages/MensClothing';
 import WomensClothing from './pages/WomensClothing';
-import ClotheCard from './components/ClotheCard';
 
 
 function App() {
@@ -13,9 +12,8 @@ function App() {
       <Routes>
         <Route index element={<Home/>} />
         <Route path="/home" element={<Home/>} />
-        <Route path="/mensclothing" element={<MensClothing/>} />
-        <Route path="/womensclothing" element={<WomensClothing/>} />
-        <Route path="/clothecard" element={<ClotheCard/>} />
+        <Route path="/mens-clothing" element={<MensClothing/>} />
+        <Route path="/womens-clothing" element={<WomensClothing/>} />
       </Routes>
       </BrowserRouter>
     </div>

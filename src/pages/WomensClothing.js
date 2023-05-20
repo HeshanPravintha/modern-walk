@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import ClotheCard from '../components/ClotheCard'
+import ClotheCard from '../components/ClotheCardMen'
 
 function WomensClothing() {
   return (
