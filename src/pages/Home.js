@@ -3,7 +3,8 @@ import NavBar from "../components/NavBar";
 import ClotheCardMen from "../components/ClotheCardMen";
 import ClotheCardWomen from "../components/ClotheCardWomen"
 import '../App.css'
-import CategoryButton from "../components/CategoryButton";
+import CategoryButtonMen from "../components/CategoryButtonMen";
+import CategoryButtonWomen from "../components/CategoryButtonWomen";
 
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
     <>
       <NavBar />
       <div className="maindiv">
-        <h3>Flash Sale</h3>
+        <h2 className="flash-sale">Flash Sale</h2>
         <div className="card-row">
         <ClotheCardMen 
         
@@ -34,15 +35,13 @@ function Home() {
         
         />
         </div>
-        <h3>Categories</h3>
+        <h2>Categories</h2>
         <div className="category-button-container">
-        <CategoryButton
-        url="/mens-clothing"
+        <CategoryButtonMen
         title="Men's Clothing" 
         color="primary-color"
         />
-        <CategoryButton
-        url="/womens-clothing"
+        <CategoryButtonWomen
         title="Women's Clothing" 
         color="secondary-color"
         />

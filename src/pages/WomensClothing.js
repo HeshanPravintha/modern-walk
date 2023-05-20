@@ -7,7 +7,7 @@ function WomensClothing() {
     <>
     <NavBar />
     <div className="maindiv">
-      <h3>Women's Clothing</h3>
+      <h2 className='womens-clothing-right-title'>Women's Clothing</h2>
       <div className="womens-clothing-card-row">
       <ClotheCard 
         title='Mens Cotton Jacket'

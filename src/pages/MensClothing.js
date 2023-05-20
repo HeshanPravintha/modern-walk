@@ -8,7 +8,7 @@ function MensClothing() {
     <>
       <NavBar />
       <div className="maindiv">
-        <h3>Men's Clothing</h3>
+        <h2 className="mens-clothing-right-title">Men's Clothing</h2>
         <div className="mens-clothing-card-row">
           <ClotheCard
             title="Mens Cotton Jacket"
