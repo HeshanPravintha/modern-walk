@@ -3,7 +3,10 @@ import NavBar from '../components/NavBar'
 
 function MensClothing() {
   return (
+    <>
     <NavBar/>
+    
+    </>
   )
 }
 
