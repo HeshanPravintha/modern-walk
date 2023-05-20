@@ -11,12 +11,36 @@ function Home() {
       <NavBar />
       <div className="maindiv">
         <h3>Flash Sale</h3>
+        <div className="card-row">
         <ClotheCard 
-        title='Heshan'
-        imageUrl='https://cdn.motor1.com/images/mgl/mrz1e/s3/coolest-cars-feature.jpg'
-        price='22$'
-        description='Hellooooooooo'
+        title='Mens Cotton Jacket'
+        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        color="primary-color"
+        price='22'
+        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
+        <ClotheCard 
+        title='Mens Cotton Jacket'
+        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        color="secondary-color"
+        price='22'
+        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
+        />
+        <ClotheCard 
+        title='Mens Cotton Jacket'
+        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        color="primary-color"
+        price='22'
+        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
+        />
+        <ClotheCard 
+        title='Mens Cotton Jacket'
+        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        color="secondary-color"
+        price='22'
+        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
+        />
+        </div>
         <h3>Categories</h3>
         <div className="category-button-container">
         <CategoryButton

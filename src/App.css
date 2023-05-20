@@ -7,11 +7,17 @@
 }
 
 .maindiv {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  margin-inline: 80px;
+  
 
 }
 .category-button-container {
-  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
  
-  
+}
+.card-row {
+  display: flex;
+  justify-content: space-between;
 }
