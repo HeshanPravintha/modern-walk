@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import "./ClotheCard.css";
 
@@ -24,14 +23,3 @@ const ClotheCard = ({ title, imageUrl, price, description }) => {
 };
 
 export default ClotheCard;
-=======
-import React from 'react'
-
-function ClotheCard() {
-  return (
-    <div>ClotheCard</div>
-  )
-}
-
-export default ClotheCard
->>>>>>> bbad7428a7576fb20b4aa9a5495126c1801c9acb
