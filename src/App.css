@@ -31,3 +31,12 @@
   
   
 }
+.womens-clothing-card-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  margin-bottom: 100px;
+  row-gap: 50px;
+  justify-content: space-between;
+  
+  
+}
