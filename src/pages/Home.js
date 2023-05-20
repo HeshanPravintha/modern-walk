@@ -44,10 +44,12 @@ function Home() {
         <h3>Categories</h3>
         <div className="category-button-container">
         <CategoryButton
+        url="/mensclothing"
         title="Men's Clothing" 
         color="primary-color"
         />
         <CategoryButton
+        url="/womensclothing"
         title="Women's Clothing" 
         color="secondary-color"
         />
