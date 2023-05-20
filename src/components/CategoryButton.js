@@ -1,12 +1,11 @@
 import React from 'react'
 import './CategoryButton.css'
 
-function CategoryButton() {
+const CategoryButton = ({ title, color }) => {
+    const button = `button ${color}`;
+    
   return (
-    
-    <button className='button'>Men's Clothing</button>
-    
-    
+    <button className={button}>{title}</button>
   )
 }
 

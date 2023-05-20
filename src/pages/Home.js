@@ -19,8 +19,14 @@ function Home() {
         />
         <h3>Categories</h3>
         <div className="category-button-container">
-        <CategoryButton/>
-        <CategoryButton/>
+        <CategoryButton
+        title="Men's Clothing" 
+        color="primary-color"
+        />
+        <CategoryButton
+        title="Women's Clothing" 
+        color="secondary-color"
+        />
         </div>
         
       </div>
