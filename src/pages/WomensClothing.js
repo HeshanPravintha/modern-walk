@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import ClotheCard from '../components/ClotheCardMen'
+import ClotheCardWomen from '../components/ClotheCardWomen'
 
 function WomensClothing() {
   return (
@@ -9,61 +9,41 @@ function WomensClothing() {
     <div className="maindiv">
       <h2 className='womens-clothing-right-title'>Women's Clothing</h2>
       <div className="womens-clothing-card-row">
-      <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+      <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
         />
-        <ClotheCard 
-        title='Mens Cotton Jacket'
-        imageUrl='https://img.freepik.com/free-photo/blue-black-muscle-car-with-license-plate-that-says-trans-front_1340-23399.jpg'
+        <ClotheCardWomen 
         color="secondary-color"
-        price='22'
-        description='Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...'
+        />
+        <ClotheCardWomen 
+        color="secondary-color"
+        />
+        <ClotheCardWomen 
+        color="secondary-color"
+        />
+        <ClotheCardWomen 
+        color="secondary-color"
+        />
+        <ClotheCardWomen 
+        color="secondary-color"
         />
       </div>
     </div>
